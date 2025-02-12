@@ -1,0 +1,18 @@
+.admin-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    padding: 2rem 0px;
+}
+
+.profile{
+
+    position: absolute;
+    right: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+
+    font-size: 2rem;
+    color: white;
+}

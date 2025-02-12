@@ -1,0 +1,80 @@
+.test-drive-page {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .image {
+    flex: 1;
+    background-color: yellow; /* Distinct background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+  }
+  
+  .car-details {
+    margin-bottom: 20px;
+  }
+  
+  .car-details h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .car-details h2 {
+    font-size: 20px;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .test-drive-page-button-warpper {
+    display: flex;
+    gap: 15px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

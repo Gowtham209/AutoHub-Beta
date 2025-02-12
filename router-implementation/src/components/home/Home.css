@@ -1,0 +1,17 @@
+.grid{
+    display: flex;
+    width: 100vw;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: space-around;
+    box-sizing: content-box;
+}
+
+.base-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
